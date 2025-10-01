@@ -1,0 +1,14 @@
+name: etl_project
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - sqlalchemy
+  - pyodbc
+  - requests
+  - openpyxl
+  - pip
+  - pip:
+      - python-dotenv

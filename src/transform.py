@@ -1,8 +1,7 @@
 import pandas as pd
 import io
 import dateparser
-from schema import EXPECTED_COLS, DATE_COLS, BOOLEAN_COLS, ALIASES
-
+from schema import EXPECTED_COLS, DATE_COLS, BOOLEAN_COLS, ALIASES, TXT
 class Transformer:
     def __init__(self):
         pass
@@ -46,14 +45,7 @@ class Transformer:
         for c in BOOLEAN_COLS:
             df[c] = df[c].map(self.to_bool_int)
 
-        # Limpieza básica de textos
-        txt = [
-            "sexo","tip_ss","cod_ase","cer_def","nom_est_f_caso","nom_upgd",
-            "pais_ocurrencia","nombre_evento","departamento_ocurrencia",
-            "municipio_ocurrencia","departamento_residencia","municipio_residencia",
-            "departamento_notificacion","municipio_notificacion"
-        ]
-        for c in txt:
+        for c in TXT:
             if c in df.columns:
                 df[c] = df[c].astype("string").str.strip()
 

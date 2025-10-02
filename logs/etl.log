@@ -1,0 +1,44 @@
+2025-10-02 17:04:49,163 [INFO] Inicio del proceso ETL
+2025-10-02 17:04:49,171 [INFO] BD creada: ..\data\dbProject.db
+2025-10-02 17:04:49,241 [INFO] Tabla 'etl_monitor' creada correctamente.
+2025-10-02 17:04:49,271 [INFO] Tabla 'datos_dengue' creada correctamente.
+2025-10-02 17:04:49,318 [INFO] Fin del proceso ETL Satisfactoriamente
+2025-10-02 17:13:24,976 [INFO] Inicio del proceso ETL
+2025-10-02 17:13:24,981 [INFO] La BD ya existe: ..\data\dbProject.db
+2025-10-02 17:13:24,989 [INFO] La tabla 'etl_monitor' ya existe.
+2025-10-02 17:13:24,989 [INFO] La tabla 'datos_dengue' ya existe.
+2025-10-02 17:15:46,115 [INFO] 229077 registros insertados en tabla 'matriculas'
+2025-10-02 17:15:46,182 [INFO] Fin del proceso ETL Satisfactoriamente
+2025-10-02 17:22:50,321 [INFO] Inicio del proceso ETL
+2025-10-02 17:22:50,327 [INFO] BD creada: ..\data\dbProject.db
+2025-10-02 17:22:50,386 [INFO] Tabla 'etl_monitor' creada correctamente
+2025-10-02 17:22:50,423 [INFO] Tabla 'datos_dengue' creada correctamente
+2025-10-02 17:25:08,295 [INFO] 229077 registros insertados en tabla 'datos_dengue'
+2025-10-02 17:25:08,337 [INFO] Fin del proceso ETL Satisfactoriamente
+2025-10-02 17:26:41,688 [INFO] Inicio del proceso ETL
+2025-10-02 17:26:41,692 [INFO] La BD ya existe: ..\data\dbProject.db
+2025-10-02 17:26:41,700 [INFO] Tabla 'etl_monitor' creada correctamente
+2025-10-02 17:26:41,701 [INFO] Tabla 'datos_dengue' creada correctamente
+2025-10-02 17:30:57,210 [INFO] Inicio del proceso ETL
+2025-10-02 17:30:57,216 [INFO] La BD ya existe: ..\data\dbProject.db
+2025-10-02 17:30:57,225 [INFO] Tabla 'etl_monitor' creada correctamente
+2025-10-02 17:30:57,228 [INFO] Tabla 'datos_dengue' creada correctamente
+2025-10-02 17:51:58,611 [INFO] 1162201 registros insertados en tabla 'datos_dengue'
+2025-10-02 17:51:58,662 [INFO] Fin del proceso ETL Satisfactoriamente
+2025-10-02 17:53:23,794 [INFO] Inicio del proceso ETL
+2025-10-02 17:53:23,801 [INFO] La BD ya existe: ..\data\dbProject.db
+2025-10-02 17:53:23,814 [INFO] Tabla 'etl_monitor' creada correctamente
+2025-10-02 17:53:23,815 [INFO] Tabla 'datos_dengue' creada correctamente
+2025-10-02 17:53:41,529 [INFO] Inicio del proceso ETL
+2025-10-02 17:53:41,534 [INFO] La BD ya existe: ..\data\dbProject.db
+2025-10-02 17:53:41,546 [INFO] Tabla 'etl_monitor' creada correctamente
+2025-10-02 17:53:41,547 [INFO] Tabla 'datos_dengue' creada correctamente
+2025-10-02 18:04:20,509 [ERROR] Error en la corrida ETL: ('Connection aborted.', ConnectionResetError(10054, 'Se ha forzado la interrupci�n de una conexi�n existente por el host remoto', None, 10054, None))
+2025-10-02 18:04:42,895 [INFO] Inicio del proceso ETL
+2025-10-02 18:04:42,899 [INFO] La BD ya existe: ..\data\dbProject.db
+2025-10-02 18:04:42,902 [INFO] Tabla 'etl_monitor' creada correctamente
+2025-10-02 18:04:42,902 [INFO] Tabla 'datos_dengue' creada correctamente
+2025-10-02 18:05:34,497 [INFO] \U0001f50e Se encontraron 14 archivos. \u2705 Descarga completada. Archivos guardados en + ..\data\github_files
+2025-10-02 18:13:04,895 [INFO] \u2705 DataFrame cargado con 1162201 filas y 73 columnas.
+2025-10-02 18:13:47,616 [INFO] 1162201 registros insertados en tabla 'datos_dengue'
+2025-10-02 18:13:47,656 [INFO] Fin del proceso ETL Satisfactoriamente

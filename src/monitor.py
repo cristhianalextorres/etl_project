@@ -6,7 +6,7 @@ from datetime import datetime
 class MonitorETL:
 
     def __init__(self):
-        self.db_file = "..\\data\\lab2.db"
+        self.db_file = "..\\data\\dbProject.db"
         self.start_time = None
         self.registros_leidos = 0
         self.registros_validos = 0

@@ -94,3 +94,25 @@ ALIASES = {
     "Departamento_Notificacion": "departamento_notificacion",
     "Municipio_notificacion": "municipio_notificacion"
 }
+
+TXT = ["sexo","tip_ss","cod_ase","cer_def","nom_est_f_caso","nom_upgd",
+        "pais_ocurrencia","nombre_evento","departamento_ocurrencia","municipio_ocurrencia",
+        "departamento_residencia","municipio_residencia","departamento_notificacion",
+        "municipio_notificacion"]
+
+COLUMNS = [
+    "CONSECUTIVE","COD_EVE","FEC_NOT","SEMANA","ANO","COD_PRE","COD_SUB",
+    "EDAD","UNI_MED","nacionalidad","nombre_nacionalidad","SEXO","COD_PAIS_O",
+    "COD_DPTO_O","COD_MUN_O","AREA","OCUPACION","TIP_SS","COD_ASE","PER_ETN",
+    "GRU_POB","nom_grupo","estrato","GP_DISCAPA","GP_DESPLAZ","GP_MIGRANT",
+    "GP_CARCELA","GP_GESTAN","sem_ges","GP_INDIGEN","GP_POBICFB","GP_MAD_COM",
+    "GP_DESMOVI","GP_PSIQUIA","GP_VIC_VIO","GP_OTROS","fuente","COD_PAIS_R",
+    "COD_DPTO_R","COD_MUN_R","COD_DPTO_N","COD_MUN_N","FEC_CON","INI_SIN",
+    "TIP_CAS","PAC_HOS","FEC_HOS","CON_FIN","FEC_DEF","AJUSTE","FECHA_NTO",
+    "CER_DEF","CBMTE","FEC_ARC_XL","FEC_AJU","FM_FUERZA","FM_UNIDAD",
+    "FM_GRADO","confirmados","consecutive_origen","va_sispro",
+    "Estado_final_de_caso","nom_est_f_caso","Nom_upgd","Pais_ocurrencia",
+    "Nombre_evento","Departamento_ocurrencia","Municipio_ocurrencia",
+    "Pais_residencia","Departamento_residencia","Municipio_residencia",
+    "Departamento_Notificacion","Municipio_notificacion"
+]

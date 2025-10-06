@@ -1,5 +1,3 @@
-# Reintentamos guardar el archivo README.md en el entorno local
-readme_content = """
 # 🧠 Proyecto ETL - Análisis de Casos de Dengue
 
 ### Maestría en Inteligencia Artificial y Ciencia de Datos  

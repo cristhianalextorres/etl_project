@@ -1,6 +1,5 @@
 import pandas as pd
 import io
-import dateparser
 from schema import EXPECTED_COLS, DATE_COLS, BOOLEAN_COLS, ALIASES, TXT
 class Transformer:
     def __init__(self):
@@ -11,7 +10,7 @@ class Transformer:
         s = str(v).strip()
         if not s: return None
         try:
-            return dateparser.parse(s, dayfirst=False).date().isoformat()
+            return pd.to_datetime(s, errors="coerce").date().isoformat()
         except Exception:
             return None
 

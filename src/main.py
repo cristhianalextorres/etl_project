@@ -38,11 +38,7 @@ try:
 
     log, files = DataExtractor.from_github()
     logger.info(log)
-    """ 
-    files = ['..\\data\\github_files\\Datos_2010_210.xlsx',
-            '..\\data\\github_files\\Datos_2011_210.xls',
-                '..\\data\\github_files\\Datos_2012_210.xls'] 
-    """
+
     log, df = DataExtractor.load_data(files)
     logger.info(log)
 

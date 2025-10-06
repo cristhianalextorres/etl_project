@@ -42,3 +42,19 @@
 2025-10-02 18:13:04,895 [INFO] \u2705 DataFrame cargado con 1162201 filas y 73 columnas.
 2025-10-02 18:13:47,616 [INFO] 1162201 registros insertados en tabla 'datos_dengue'
 2025-10-02 18:13:47,656 [INFO] Fin del proceso ETL Satisfactoriamente
+2025-10-05 14:41:13,676 [INFO] Inicio del proceso ETL
+2025-10-05 14:41:13,680 [INFO] La BD ya existe: ..\data\dbProject.db
+2025-10-05 14:41:13,693 [INFO] Tabla 'etl_monitor' creada correctamente
+2025-10-05 14:41:13,694 [INFO] Tabla 'datos_dengue' creada correctamente
+2025-10-05 14:44:57,666 [INFO] \U0001f50e Se encontraron 14 archivos. \u2705 Descarga completada. Archivos guardados en + ..\data\github_files
+2025-10-05 14:52:36,885 [INFO] \u2705 DataFrame cargado con 1162201 filas y 73 columnas.
+2025-10-05 14:53:23,850 [INFO] 1162201 registros insertados en tabla 'datos_dengue'
+2025-10-05 14:53:23,864 [INFO] Fin del proceso ETL Satisfactoriamente
+2025-10-05 16:23:58,074 [INFO] Inicio del proceso ETL
+2025-10-05 16:23:58,077 [INFO] La BD ya existe: ..\data\dbProject.db
+2025-10-05 16:23:58,090 [INFO] Tabla 'etl_monitor' creada correctamente
+2025-10-05 16:23:58,090 [INFO] Tabla 'datos_dengue' creada correctamente
+2025-10-05 16:29:51,296 [INFO] \U0001f50e Se encontraron 14 archivos. \u2705 Descarga completada. Archivos guardados en + ..\data\github_files
+2025-10-05 16:38:29,927 [INFO] \u2705 DataFrame cargado con 1162201 filas y 73 columnas.
+2025-10-05 17:37:06,046 [INFO] 1162201 registros insertados en tabla 'datos_dengue'
+2025-10-05 17:37:06,082 [INFO] Fin del proceso ETL Satisfactoriamente

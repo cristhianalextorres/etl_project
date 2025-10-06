@@ -112,6 +112,9 @@ Ejecutar el script principal:
     python src/main.py
 
 ### 📂 Resultados
+### La Base de datos y los archivos de Data se ecuentran en el Enlace:
+
+https://drive.google.com/drive/folders/1yXFmbg-YAtsJxkfk29I1_0KQDHAcgtmZ?usp=sharing
 
 + Base de datos generada: data/dbProject.db
 + Logs del proceso: logs/etl.log
